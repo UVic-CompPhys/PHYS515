@@ -1,6 +1,6 @@
 # PHYS515
 
-The notes are provided as Markdown files, with dependent images in a sub-directory. Clone the entire repository and view the notes in a Markdown editor or viewer. There are many around. Two examples are [Visual Studio Code](https://code.visualstudio.com) and [Typora](https://typora.io). 
+The notes are provided as Markdown files, with dependent images in a sub-directory. Clone the entire repository and view the notes in a Markdown editor or viewer. If you need a quick-start how to use `git` have a look in the [PHYS248 notes](https://github.com/UVic-CompPhys/PHYS248). There are many around. Two examples are [Visual Studio Code](https://code.visualstudio.com) and [Typora](https://typora.io). 
 
 The notebooks should be executed in the PPMstar virtual research platform as described in the notes. 
 ## Content
