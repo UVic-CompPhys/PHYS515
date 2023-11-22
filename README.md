@@ -6,7 +6,7 @@ The notes are provided as Markdown files, with dependent images in a sub-directo
 
 The notebooks should be executed in the PPMstar virtual research platform as described in the notes. 
 
-**First, look at the `P515_2023_part1.md` for instructions on how to log in to the PPMstar virtual research platform.**
+**First, look at the `P515_2023_part1.md` for instructions on how to log in to the PPMstar virtual research platform.** Once you have cloned this repo to the ppmstar hub as described, view `P515_2023_part1.md` in the hub with the build-in Markdown viewer. 
 
 ## Content
 
