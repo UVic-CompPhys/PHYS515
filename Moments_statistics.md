@@ -113,7 +113,7 @@ Remember:
 * When the test statistic is greater than the critical value at a small significance level (say 1%) there is strong evidence against the null hypothesis at a high confidence level (99% confidence). In other words, you can be more confident in asserting that your data do not come from the normal distribution.
 
 ## Data-analysis of 3D simulations
-
-* Let's have a look at the virtual research platform [ppmstar.org](https://www.ppmstar.org)
-* Analyse velocity data in the notebook `Mollweide-P515.py`
-* Data compression and presentation
+Next steps are:
+* Let's have a look at the virtual research platform [ppmstar.org](https://www.ppmstar.org), for details see the first part of the notes [Parallel_computing.md]
+* Experiment numerically with hypothesis testing in notebook `Distribution_testing.ipynb`
+* Analyse velocity data in the notebook `Mollweide-HW1.py`

@@ -75,3 +75,6 @@ Where:
 [Fig. 20 in Herwig et al. 2023](https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.1601H) shows the spatial spectra at a given radius of the horizontal and radial velocity component. While the radial component peaks at angular degree  $l \approx 30$ the tangential velocity component  has most power at very low angular degree $l$.
 
 <img src="md.assets/image-20231126180141300.png" alt="image-20231126180141300" style="zoom:50%;" />
+
+##  Next steps
+* Look at some examples for both temporal and spatial spectra in notebook `Spectra_HW2.ipynb`
