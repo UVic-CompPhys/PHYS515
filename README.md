@@ -15,9 +15,11 @@ File | Content
 Moments_statistics.md | Notes on moments and hpothesis testing
 Parallel_computing.md | Parallel computing notes and instructions how to access the ppmstar.org virtual research platform
 Spectra.md | Notes on spectra 
+Distribution_testing.ipynb | Experiments with hypothesis testing
 Mollweide_HW1.ipynb | Examples and homework 1 
 Spectra_HW2.ipynb | Examples and homework 2 
 Assignment | Deadline Monday, Dec 11 
+Parallel_code_examples | Directoey with various examples and templates for parallel computing with Python and Fortran, covering MPI, OpenMP and Python `multiprocessing`
 
 ## Outline of the module
 
