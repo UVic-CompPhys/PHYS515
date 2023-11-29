@@ -326,10 +326,10 @@ In Bash threading can be implemented with
 ## Threading in Python
 
 There are more than one way and approaches, libraries and implementations are evolving. The approach used depends, for example, on whether it is I/O intensive or flops intensive 
-* `mpi4py` (never tried it)
-* `multiprocessing`: Ideal for CPU-bound tasks, creates separate Python processes, each with its own Python interpreter and memory space; good for computationally intensive tasks like data processing, numerical simulations
+* `mpi4py`: for parallel tasks that need to run on multiple machines or nodes in a cluster, can do complex communications
+* `multiprocessing`: for CPU-bound tasks, creates separate Python processes, each with its own Python interpreter and memory space; to run on shared-memory machines, thus good for threading on one node
 
-Look at example `Mollweide.py`
+Look at examples `Mollweide.py` for `multiprocessing` and examples `mpi4py_example.py` and `mpi_MCpi.py` in directory `Parallel_code_examples`.
 
 ## Slurm and queuing on large machines
 
