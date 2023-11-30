@@ -1,6 +1,6 @@
-# Assignment 3D Hydro Analysis
+# PHYS 515     Assignment # 4    
 
-Deadline: Monday, Dec 11
+**Due: Monday, Dec 11**
 
 Perform this homework on the `ppmstar` hub of the [ppmstar.org](https://www.ppmstar.org) virtual research platform. Use your work from homework 1 and 2. Your solution consists of a number of files, such as a Python program and a notebook to plot the data you generated, and any other notebook, program or Markdown file you may want to generate. You submit your work by creating in your `ppmstar` hub directory in `/user/scratch14_ppmstar` a directory called `Assignment`. It contains a file `README.md` in which you list all files that are part of your solution and document where each of the parts below is covered. The directory should not contain any additional files not listed, and if it does those will be ignored. You will then create a zip file of the `Assignment` directory and call it `Assignment_First_LastName_date.zip`. You download this zip file using the built-in JupyterLab file manager and send it to me by email. 
 
