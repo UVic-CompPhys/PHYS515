@@ -97,6 +97,9 @@ Flynn's Taxonomy classifies computer architectures based on the number of instru
 
 * Latency and bandwidth
 * Speedup, efficiency, cost
+  * Strong scaling: speedup with the same problem size but increasing number of threads
+  * Week scaling: speedup (at the thread-limit of efficiency) with increasing problem size
+
 * Almdahl's law
   * find the maximum improvement in speed that can be achieved by parallelizing a portion of an algorithm
   * speedup of a program is limited by the time spent on the non-parallelizable portion of the task
