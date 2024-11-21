@@ -15,6 +15,10 @@ File/Directory | Content
 Parallel_computing.md | Parallel computing notes and instructions how to access the ppmstar.org virtual research platform
 Spectra.md | Notes on spectra 
 Parallel_code_examples | Directory with various examples and templates for parallel computing with Python and Fortran, covering MPI, OpenMP and Python `multiprocessing` 
+Moments_statistics.md | Notes on moments and hpothesis testing
+Distribution_testing.ipynb | Experiments with hypothesis testing
+Mollweide_HW1.ipynb | Examples and homework 1 
+
 
 ## Outline of the module
 
@@ -35,5 +39,19 @@ Parallel_code_examples | Directory with various examples and templates for paral
 
   * Examples: Bash, Python, Fortran
 
+  * HW 1
+
+  
+
+**Thursday, Nov 21**
+
+* Revision of moments and hypothesis testing
+* HW 2
+
+**Monday, Nov 25**
+
 * Revision of temporal and spatial spectra
+* HW 3 and Assignment 4
+
+
 
