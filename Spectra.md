@@ -2,8 +2,8 @@
 
 A spectrum describes how a signal's amplitude or power is distributed across different frequencies. To be distinguished are spectral analysis in space and spectral analysis in time.
 
-* Spectrum in space: A spatial spectrum, also known as a spatial frequency spectrum or simply a "spectrum in space" characterizes how a physical quantity varies across different positions or spatial coordinates in a given region or space.
-* Spectrum in time: A temporal spectrum, also known as a temporal frequency spectrum or a "spectrum in time," is used to analyze how the amplitude or power of a signal varies with time.
+* **Spatial spectrum:** A spatial spectrum, also known as a spatial frequency spectrum or simply a "spectrum in space" characterizes how a physical quantity varies across different positions or spatial coordinates in a given region or space.
+* **Temporal spectrum:** A temporal spectrum, also known as a temporal frequency spectrum or a "spectrum in time," is used to analyze how the amplitude or power of a signal varies with time.
 
 ## Spectral Analysis in Time: Fourier Analysis
 
@@ -33,14 +33,16 @@ Where:
 - $x[n]$ is the discrete signal at time step $n$.
 - $N$ is the number of data points.
 
+The index $k$ ranges from $0$ to $N-1$ and corresponds to different frequency components in the signal.
+
 ### Example
-[Fig. 4, Thompson et al. 2024](https://ui.adsabs.harvard.edu/abs/2024MNRAS.531.1316T) shows the temporal spectra (right column) of the simulated luminosity variations (shown in the left column) from a 3D hydrodynamic simulation, at a given radius, in different directions (the different rows). The power peaks at $2$ to $3\mu Hz$ which corresponds roughly to the convectiev frequency in the system. 
+[Fig. 4, Thompson et al. 2024](https://ui.adsabs.harvard.edu/abs/2024MNRAS.531.1316T) shows the temporal spectra (right column) of the simulated luminosity variations (shown in the left column) from a 3D hydrodynamic simulation, at a given radius, in different directions (the different rows). The power peaks at $2$ to $3\mu Hz$ which corresponds roughly to the convective frequency in the system. 
 
 <img src="md.assets/image-20231126175230538.png" alt="image-20231126175230538" style="zoom:50%;" />
 
-## Spectral Analaysis in Space: Spherical Harmonics
+## Spectral Analysis in Space: Spherical Harmonics
 
-Spherical harmonic decomposition is used to represent a spherically symmetric variable in terms of spherical harmonics. Spherical harmonics ($Y_l^m(\theta, \phi)$) are a set of orthonormal functions defined on the unit sphere. They are characterized by two quantum numbers: $l$ and $m$, where $l$ is the degree and $m$ is the order. Spherical harmonics describe angular variations in spherically symmetric systems.
+Spherical harmonic decomposition is used to represent a function defined on the surface of a sphere in terms of spherical harmonics. Spherical harmonics ($Y_l^m(\theta, \phi)$) are a set of orthonormal functions defined on the unit sphere. They are characterized by two quantum numbers: $l$ and $m$, where $l$ is the degree and $m$ is the order. Spherical harmonics describe angular variations in systems that are spherically symmetric in their overall structure but may have perturbations or variations.
 
 The [formula for spherical harmonics](https://mathworld.wolfram.com/SphericalHarmonic.html) is given by:
 $$
@@ -67,7 +69,7 @@ Where:
 - $a_{lm}$ is the expansion coefficient for the spherical harmonic $Y_l^m$.
 - $f(\theta, \phi)$ is the spherically symmetric function to be decomposed.
 - $Y_l^{m*}(\theta, \phi)$ is the complex conjugate of the spherical harmonic $Y_l^m$.
-- $\sin(\theta) d\theta d\phi$ is the solid angel $d \Omega$.
+- $\sin(\theta) d\theta d\phi$ is the solid angle $d \Omega$.
 - The double integral is performed over the entire sphere.
 
 ### Example
@@ -77,4 +79,4 @@ Where:
 <img src="md.assets/image-20231126180141300.png" alt="image-20231126180141300" style="zoom:50%;" />
 
 ##  Next steps
-* Look at some examples for both temporal and spatial spectra in notebook `Spectra_HW2.ipynb`
+* Look at some examples for both temporal and spatial spectra in notebook `Spectra_HW3.ipynb`
